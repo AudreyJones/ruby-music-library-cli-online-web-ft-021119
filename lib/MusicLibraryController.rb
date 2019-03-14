@@ -103,7 +103,11 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     user_input = gets.chomp
 binding.pry
+    Song.all.select {|song|
+        if song.name == user_input
 
+        end 
+    }
     # if user_input ==
     # self.list_songs {|song|
     #
