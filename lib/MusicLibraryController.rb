@@ -103,10 +103,11 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     user_input = gets.chomp
 binding.pry
-
+    if Song.all.include?(song)
     #   puts "Playing #{song.name} by #{song.artist}"
     #
     # }
+  end
 
   end
 
