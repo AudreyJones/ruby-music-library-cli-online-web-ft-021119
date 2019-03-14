@@ -103,10 +103,10 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     user_input = gets.chomp
 # binding.pry
-    self.list_songs.select {
-      puts "Playing #{song.name} by #{song.artist}"
-
-    }
+    # self.list_songs.select {
+    #   puts "Playing #{song.name} by #{song.artist}"
+    # 
+    # }
 
   end
 
