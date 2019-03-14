@@ -25,6 +25,7 @@ class MusicLibraryController
     end
   end
 
+<<<<<<< HEAD
   def list_songs
 # Sorting songs by their names
     song_list = Song.all.sort_by { |song| song.name}
@@ -108,6 +109,18 @@ binding.pry
     }
     end
 
+=======
+  def list_songs #from @filenames:
+                     #    ["Real Estate - Green Aisles - country.mp3",
+                     # "Real Estate - It's Real - hip-hop.mp3",
+                     # "Action Bronson - Larry Csonka - indie.mp3",
+                     # "Jurassic 5 - What's Golden - hip-hop.mp3",
+                     # "Thundercat - For Love I Come - dance.mp3"]
+# binding.pry
+    song_list = Song.all.sort_by { |song|
+      song.name    }
+      binding.pry
+>>>>>>> dcf39d672a36b4df38390ae2a50ca68cbacfdbaa
   end
 
 end
