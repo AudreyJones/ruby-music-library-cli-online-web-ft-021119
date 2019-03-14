@@ -106,7 +106,7 @@ binding.pry
     Song.all.select {|song|
         if song.name == user_input
 
-        end 
+        end
     }
     # if user_input ==
     # self.list_songs {|song|
