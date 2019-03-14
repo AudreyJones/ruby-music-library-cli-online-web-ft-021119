@@ -23,6 +23,7 @@ class MusicLibraryController
         return "Goodbye!"
       end
     end
+    self.call
   end
 
 
