@@ -21,7 +21,7 @@ class MusicLibraryController
     user_input = gets.chomp
       if user_input == "exit"
         return "Goodbye!"
-      elsif user_input == "list_songs"
+      elsif user_input == "list songs"
         self.list_songs
       end
     end
