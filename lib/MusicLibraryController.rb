@@ -104,7 +104,7 @@ class MusicLibraryController
     user_input = gets.chomp
 # binding.pry
     if Song.all.include?(song)
-      pry
+      binding.pry
     #   puts "Playing #{song.name} by #{song.artist}"
     #
     # }
