@@ -107,7 +107,7 @@ class MusicLibraryController
       specific_song = Song.all.sort_by {|song| song.name}[user_input - 1]
       puts "Playing #{specific_song.name} by #{specific_song.artist.name}"
     else
-      puts "Invalid input"
+      #{do nothing}
     end
     # Song.all.select {|song|
     #     if song.name == user_input
