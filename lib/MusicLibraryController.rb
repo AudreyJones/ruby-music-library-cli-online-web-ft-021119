@@ -103,9 +103,12 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     user_input = gets.chomp.to_i
 # binding.pry
+    if user_input != integer (1..infinity)
+      puts "Not a valid entry."
+    else
     specific_song = Song.all.sort_by {|song| song.name}[user_input - 1]
     puts "Playing #{specific_song.name} by #{specific_song.artist.name}"
-
+    end
     # Song.all.select {|song|
     #     if song.name == user_input
     #       puts "Playing #{song.name} by #{song.artist}"
