@@ -105,7 +105,7 @@ class MusicLibraryController
 binding.pry
     Song.all.select {|song|
         if song.name == user_input
-
+          puts "Playing #{song.name} by #{song.artist}"
         end
     }
     # if user_input ==
