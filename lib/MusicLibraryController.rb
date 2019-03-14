@@ -105,7 +105,7 @@ class MusicLibraryController
 # binding.pry
     # self.list_songs.select {
     #   puts "Playing #{song.name} by #{song.artist}"
-    # 
+    #
     # }
 
   end
